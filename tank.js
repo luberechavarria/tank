@@ -10,10 +10,10 @@ function checkJquery(){
 checkJquery()
 
   function main(){
-var forward ="http://creator.kitsunei.com/hook/1d8cc980/forward";
-var back ="http://creator.kitsunei.com/hook/1d8cc980/back";
-var left ="http://creator.kitsunei.com/hook/1d8cc980/left";
-var right ="http://creator.kitsunei.com/hook/1d8cc980/right";
+var forward ="https://creator.kitsunei.com/hook/1d8cc980/forward";
+var back ="https://creator.kitsunei.com/hook/1d8cc980/back";
+var left ="https://creator.kitsunei.com/hook/1d8cc980/left";
+var right ="https://creator.kitsunei.com/hook/1d8cc980/right";
 
     $( "#forward").click(function(){
           $.ajax({url:forward});
